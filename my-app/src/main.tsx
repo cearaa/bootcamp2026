@@ -8,3 +8,7 @@ createRoot(document.getElementById('root')!).render(
     <App />
   </StrictMode>,
 )
+
+export default function app() {
+  return <h1>Olá Mundo!!</h1>
+}
