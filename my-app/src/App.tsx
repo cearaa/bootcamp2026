@@ -1,4 +1,5 @@
 import './App.css'
+import Lista from './componentes/ListaAluno'
 
 //export default function App(){
 //
@@ -22,6 +23,7 @@ export default function App(){
     <h1>TDS FIAP - RwD</h1>
     <p>Alunos: {aluno} </p>
     <p>Curso: {curso} </p>
+    <Lista/>
     </>
   )
 }
