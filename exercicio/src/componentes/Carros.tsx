@@ -1,5 +1,11 @@
+import Carro from './assets/carro.jpg';
+
 export default function App() {
     return (
+        <>
+
+         <img src={Carro} width='100px' />
+
         <ul>
             <li>Uno de Escada</li>
             <li>Aventador</li>
@@ -7,5 +13,6 @@ export default function App() {
             <li>McLaren</li>
             <li>Ferrari</li>
         </ul>
+        </>
     );
 }

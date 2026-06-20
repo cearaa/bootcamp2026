@@ -1,7 +1,14 @@
 export default function App() {
-    return(
-        <header>
-            <h2>Lista de Parceiros</h2>
-        </header>
-    )
+  return (
+    <>
+
+      <h2>Parceiros</h2>
+
+      <a href="#">FIAP</a><br/>
+      <a href="#">Google</a><br/>
+      <a href="#">Microsoft</a><br/>
+      <a href="#">Oracle</a>
+
+    </>
+  )
 }
